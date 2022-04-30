@@ -30,7 +30,7 @@ let calculadora = {
 var op;
 
 do {
-    op = readlineSync.question('Selecione uma operacao:\n 1- Soma\n 2- Subtracao\n 3- Multiplicacao\n 4- Divisao\n 5- Sair\n\n5');
+    op = readlineSync.question('Selecione uma operacao:\n 1- Soma\n 2- Subtracao\n 3- Multiplicacao\n 4- Divisao\n 5- Sair\n\n');
     switch (op) {
         case "1":
             const a = parseInt(readlineSync.question("\nInsira o primeiro numero: \n"));
