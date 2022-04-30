@@ -61,7 +61,7 @@ do {
             break;
 
         default:
-            console.log(`\nPor favor, digite uma opção entre 1 e 5\n`);
+            console.log(`\nPor favor, digite uma opção entre 1 e 5 \n`);
     }
 
 } while (op != 5)
